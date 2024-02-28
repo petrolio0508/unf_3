@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ebd47973-0174-4ace-b4e3-2a88faf5750c">
+  <name>Эвотор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Эвотор</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="1048b249-4fba-4327-a716-7f634df05f5e"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="603f442b-7567-419e-8cfb-b9a99478ac99"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="33750f4a-f6db-4848-9da5-56aa157be2a3"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="3837c903-373a-4c5c-ab16-798f670f9875"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="61554683-e1ad-49de-90cb-5ed2f9d60cd4"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="f50de928-ac62-44c4-beba-3528c2dc6168"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="d0e65dee-dd71-41e3-8c03-2ce8b376b84e"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>Эвотор_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.23</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <scriptVariant>Russian</scriptVariant>
+  <roles>Role.Эвотор_ОсновнаяРоль</roles>
+</mdclass:Configuration>
