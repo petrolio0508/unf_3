@@ -8,7 +8,7 @@
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:ConfigurationExtension">
     <defaultRunMode>Checked</defaultRunMode>
-    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <compatibilityMode>Checked</compatibilityMode>
   </extension>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="1048b249-4fba-4327-a716-7f634df05f5e"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="603f442b-7567-419e-8cfb-b9a99478ac99"/>
@@ -19,10 +19,11 @@
   <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="d0e65dee-dd71-41e3-8c03-2ce8b376b84e"/>
   <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
   <namePrefix>Эвотор_</namePrefix>
-  <configurationExtensionCompatibilityMode>8.3.23</configurationExtensionCompatibilityMode>
+  <configurationExtensionCompatibilityMode>8.3.21</configurationExtensionCompatibilityMode>
   <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <scriptVariant>Russian</scriptVariant>
+  <compatibilityMode>8.3.21</compatibilityMode>
   <roles>Role.Эвотор_ОсновнаяРоль</roles>
   <informationRegisters>InformationRegister.Эвотор_Заказы</informationRegisters>
 </mdclass:Configuration>
