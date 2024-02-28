@@ -25,5 +25,6 @@
   <scriptVariant>Russian</scriptVariant>
   <compatibilityMode>8.3.21</compatibilityMode>
   <roles>Role.Эвотор_ОсновнаяРоль</roles>
+  <documents>Document.ЗаказПокупателя</documents>
   <informationRegisters>InformationRegister.Эвотор_Заказы</informationRegisters>
 </mdclass:Configuration>
