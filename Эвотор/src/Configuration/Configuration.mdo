@@ -24,4 +24,5 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <scriptVariant>Russian</scriptVariant>
   <roles>Role.Эвотор_ОсновнаяРоль</roles>
+  <informationRegisters>InformationRegister.Эвотор_Заказы</informationRegisters>
 </mdclass:Configuration>

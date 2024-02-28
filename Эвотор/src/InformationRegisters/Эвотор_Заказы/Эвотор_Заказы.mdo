@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="539884f3-1479-4156-b79b-f22f7200d3d3">
+  <producedTypes>
+    <selectionType typeId="91a9c85f-e45a-47fe-a343-28c24e7fe7f7" valueTypeId="3c3b34f6-9a33-4a7e-aacd-4edebd6c0da2"/>
+    <listType typeId="6f979e56-c0d6-400d-8ecb-9a5fdebd61e3" valueTypeId="dd3e5aeb-83f0-4ea7-ad51-2cf1ced1301d"/>
+    <managerType typeId="a4c383b3-43f5-48d6-a235-7fb306f969d3" valueTypeId="0f23bd77-cf14-4d06-8c30-ffc076cc93f2"/>
+    <recordSetType typeId="29a47328-3010-4e61-b664-5a1d5498c936" valueTypeId="16a568fa-95f5-440a-956f-f373d8363ebe"/>
+    <recordKeyType typeId="93aa6226-6d69-48fd-9bb0-94a5c1ac7567" valueTypeId="a4e93a8c-ccff-416e-b76b-e96d1b9ffa51"/>
+    <recordType typeId="ff51bfb2-96a5-4efb-866c-5b84e1144a43" valueTypeId="77a3a84e-a736-4568-b15a-489f44883a8d"/>
+    <recordManagerType typeId="bb062e9d-675d-46c9-a169-1074042869c6" valueTypeId="72e39602-4ff0-4ffa-8001-5fac10ccecbd"/>
+  </producedTypes>
+  <name>Эвотор_Заказы</name>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d18a6b2e-aaf1-4ed4-b47f-9570064a18a4">
+    <name>Выгружен</name>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2a6dcdb8-f141-4395-a7dc-3d09b2b8a440">
+    <name>Оплачен</name>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="e60ed445-7934-4333-8238-729bd073ece8">
+    <name>ЗаказПокупателя</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
