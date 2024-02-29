@@ -27,8 +27,11 @@
   <subsystems>Subsystem.Эвотор</subsystems>
   <roles>Role.Эвотор_ОсновнаяРоль</roles>
   <commonModules>CommonModule.Эвотор_Сервер</commonModules>
+  <commonModules>CommonModule.Эвотор_AkiTorgConnection</commonModules>
   <eventSubscriptions>EventSubscription.Эвотор_ПриЗаписиДокумента</eventSubscriptions>
   <eventSubscriptions>EventSubscription.Эвотор_ОбработкаПроведения</eventSubscriptions>
+  <constants>Constant.Эвотор_ИдентификаторПриложения</constants>
+  <constants>Constant.Эвотор_ИдентификаторКассы</constants>
   <documents>Document.ЗаказПокупателя</documents>
   <documents>Document.ПоступлениеВКассу</documents>
   <documents>Document.ОперацияПоПлатежнымКартам</documents>

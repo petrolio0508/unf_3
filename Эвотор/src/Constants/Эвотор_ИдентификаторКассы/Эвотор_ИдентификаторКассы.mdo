@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e3d4ee8e-5910-44b7-a635-0e3695e6addb">
+  <producedTypes>
+    <managerType typeId="f68ea1e5-b9c3-4a16-a3be-3ae69a2b7541" valueTypeId="fbb77c7e-18c8-4ebd-9255-78d676b2032a"/>
+    <valueManagerType typeId="cd507589-80d9-46a1-bbd0-2e2f854484cb" valueTypeId="65ea338b-fe8f-41cd-aee8-31148da22ed2"/>
+    <valueKeyType typeId="b1902be1-cc36-4915-a147-1b8980ff5d6b" valueTypeId="dba26645-8c2f-44f3-981a-ee858ade4345"/>
+  </producedTypes>
+  <name>Эвотор_ИдентификаторКассы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Идентификатор кассы</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -11,4 +11,7 @@
   <content>CommonModule.Эвотор_Сервер</content>
   <content>Role.Эвотор_ОсновнаяРоль</content>
   <content>EventSubscription.Эвотор_ПриЗаписиДокумента</content>
+  <content>EventSubscription.Эвотор_ОбработкаПроведения</content>
+  <content>Constant.Эвотор_ИдентификаторПриложения</content>
+  <content>Constant.Эвотор_ИдентификаторКассы</content>
 </mdclass:Subsystem>

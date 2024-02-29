@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="12a006d9-8c2b-4bb6-8031-16ddf9d67665">
+  <name>Эвотор_AkiTorgConnection</name>
+  <synonym>
+    <key>ru</key>
+    <value>Aki torg connection</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

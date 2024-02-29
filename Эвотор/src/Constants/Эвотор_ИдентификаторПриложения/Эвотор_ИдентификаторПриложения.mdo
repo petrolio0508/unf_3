@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2de0db0c-4dd5-49d3-a031-dd6c4a5dfd60">
+  <producedTypes>
+    <managerType typeId="2c9e3858-f78d-48ad-8b06-5c563e60bd3f" valueTypeId="8b12b0e1-7496-490b-b263-d9c3d82b8136"/>
+    <valueManagerType typeId="70379d6d-b79f-4669-bef1-48c3c37ff945" valueTypeId="7179dea7-cfd1-4e5f-92d6-ad80bf2e4565"/>
+    <valueKeyType typeId="7461203e-4fd4-4f21-8d9d-09c52261a32a" valueTypeId="26837826-51c8-4065-88f9-83f13db7237f"/>
+  </producedTypes>
+  <name>Эвотор_ИдентификаторПриложения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Идентификатор приложения</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
