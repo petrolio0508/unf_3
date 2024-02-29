@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9750bc1-424c-4a4a-8a87-dd700baff2c8">
+  <name>Эвотор_ОбработкаПроведения</name>
+  <source>
+    <types>DocumentObject.ЗаказПокупателя</types>
+    <types>DocumentObject.ОперацияПоПлатежнымКартам</types>
+    <types>DocumentObject.ПоступлениеВКассу</types>
+  </source>
+  <event>Posting</event>
+  <handler>CommonModule.Эвотор_Сервер.Эвотор_ОбработкаПроведения</handler>
+</mdclass:EventSubscription>

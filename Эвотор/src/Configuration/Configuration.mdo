@@ -24,7 +24,13 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <scriptVariant>Russian</scriptVariant>
   <compatibilityMode>8.3.21</compatibilityMode>
+  <subsystems>Subsystem.Эвотор</subsystems>
   <roles>Role.Эвотор_ОсновнаяРоль</roles>
+  <commonModules>CommonModule.Эвотор_Сервер</commonModules>
+  <eventSubscriptions>EventSubscription.Эвотор_ПриЗаписиДокумента</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.Эвотор_ОбработкаПроведения</eventSubscriptions>
   <documents>Document.ЗаказПокупателя</documents>
+  <documents>Document.ПоступлениеВКассу</documents>
+  <documents>Document.ОперацияПоПлатежнымКартам</documents>
   <informationRegisters>InformationRegister.Эвотор_Заказы</informationRegisters>
 </mdclass:Configuration>

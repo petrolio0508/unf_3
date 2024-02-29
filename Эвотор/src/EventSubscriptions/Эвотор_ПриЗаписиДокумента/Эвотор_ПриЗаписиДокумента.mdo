@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c68439f7-af6d-4433-a404-d29c8076f629">
+  <name>Эвотор_ПриЗаписиДокумента</name>
+  <source>
+    <types>DocumentObject.ЗаказПокупателя</types>
+    <types>DocumentObject.ОперацияПоПлатежнымКартам</types>
+    <types>DocumentObject.ПоступлениеВКассу</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.Эвотор_Сервер.Эвотор_ПриЗаписиДокумента</handler>
+</mdclass:EventSubscription>

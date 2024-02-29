@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="222ed2ca-4cdf-45d1-b479-b6047ed62828">
+  <name>Эвотор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Эвотор</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.Эвотор_Заказы</content>
+  <content>CommonModule.Эвотор_Сервер</content>
+  <content>Role.Эвотор_ОсновнаяРоль</content>
+  <content>EventSubscription.Эвотор_ПриЗаписиДокумента</content>
+</mdclass:Subsystem>
