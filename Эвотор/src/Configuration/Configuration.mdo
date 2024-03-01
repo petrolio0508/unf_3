@@ -8,6 +8,9 @@
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:ConfigurationExtension">
     <defaultRunMode>Checked</defaultRunMode>
+    <managedApplicationModule>Extended</managedApplicationModule>
+    <sessionModule>Extended</sessionModule>
+    <externalConnectionModule>Extended</externalConnectionModule>
     <compatibilityMode>Checked</compatibilityMode>
   </extension>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="1048b249-4fba-4327-a716-7f634df05f5e"/>
@@ -32,8 +35,10 @@
   <eventSubscriptions>EventSubscription.Эвотор_ОбработкаПроведения</eventSubscriptions>
   <constants>Constant.Эвотор_ИдентификаторПриложения</constants>
   <constants>Constant.Эвотор_ИдентификаторКассы</constants>
+  <catalogs>Catalog.СостоянияЗаказНарядов</catalogs>
   <documents>Document.ЗаказПокупателя</documents>
   <documents>Document.ПоступлениеВКассу</documents>
   <documents>Document.ОперацияПоПлатежнымКартам</documents>
+  <informationRegisters>InformationRegister.СоответствиеСтатусовЗНиБитрикс</informationRegisters>
   <informationRegisters>InformationRegister.Эвотор_Заказы</informationRegisters>
 </mdclass:Configuration>

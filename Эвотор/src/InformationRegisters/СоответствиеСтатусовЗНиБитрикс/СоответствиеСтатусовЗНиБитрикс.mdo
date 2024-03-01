@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="57832e71-c475-4288-a7cf-eb1038f02525">
+  <producedTypes>
+    <selectionType typeId="e6fdf407-ab26-4c63-9513-8cbff2f5ea54" valueTypeId="723e9730-fd95-44a9-aed5-a55d93d3af52"/>
+    <listType typeId="2f58f8f0-5bf8-4280-84e5-1dc7a849209f" valueTypeId="d1be3d2c-f602-435b-a123-8452051444a3"/>
+    <managerType typeId="cf58f325-2436-4f00-a397-d91f374e2f89" valueTypeId="5e1fc18b-7548-46ea-8b5c-e61cf3860cbf"/>
+    <recordSetType typeId="013000ad-50dc-4253-b373-67eda0b18889" valueTypeId="0a3a4574-5a25-4445-93ae-7fcb5776b2ce"/>
+    <recordKeyType typeId="f7b86615-4aa1-4269-9dc4-a8d92d472367" valueTypeId="95403512-f1d6-466e-8679-5d2c3a915057"/>
+    <recordType typeId="773528d9-991b-4b90-ab1c-57fce8afac46" valueTypeId="bb91e2e6-fafb-4a48-8b2a-0dbb85b3ba7d"/>
+    <recordManagerType typeId="fdecb5f4-1b85-4387-8e64-dd1e4168de1e" valueTypeId="f9dc34d1-c982-44ea-bd60-4febb82ca869"/>
+  </producedTypes>
+  <name>СоответствиеСтатусовЗНиБитрикс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствие статусов Заказ-нарядов и битрикс24</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="3f7ba5db-dd25-463d-8240-78c5914b4537">
+    <name>СостояниеЗН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние ЗН</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СостоянияЗаказНарядов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a86dd29d-87b0-4032-b191-1e27a20494c9">
+    <name>ИдентификаторОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор объекта битрикс</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
